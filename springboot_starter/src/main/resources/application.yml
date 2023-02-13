@@ -1,0 +1,8 @@
+#configure various  aspects of our springboard, like the embedded server
+server:
+  port: 8080
+
+  spring:
+    main:
+      web-application-type: servlet
+
