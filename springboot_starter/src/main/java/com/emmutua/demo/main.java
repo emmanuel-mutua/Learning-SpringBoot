@@ -22,3 +22,7 @@ class doctor{
         System.out.println("Doctor is assisting");
     }
 }
+
+/**
+ * a bean is an instance of a class that is stored on a Spring Container
+ */
