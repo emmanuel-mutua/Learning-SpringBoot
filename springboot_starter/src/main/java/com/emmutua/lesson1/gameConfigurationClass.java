@@ -1,5 +1,6 @@
 package com.emmutua.lesson1;
 
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -39,3 +40,4 @@ public class gameConfigurationClass {
         return new Address("Kalula Street", "KenyaCityHole");
     }
 }
+

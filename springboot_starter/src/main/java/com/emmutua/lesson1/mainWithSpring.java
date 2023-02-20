@@ -21,5 +21,7 @@ public class mainWithSpring {
         System.out.println(context.getBean("person"));
         System.out.println(context.getBean("person2"));
        // System.out.println(context.getBean("address.class"));
+
+
     }
 }
