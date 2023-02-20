@@ -8,6 +8,8 @@ public class main {
        // var game = new SuperContraGame();
         var game = new NaturalSuper();
         GameRunner GameRunner = new GameRunner(game);
+        //Object creation + wiring of dependencies
+        //wiring the objects / game has been wired to the gamerunner class, gamerunner needs a dependency
         GameRunner.run();
     }
 }
